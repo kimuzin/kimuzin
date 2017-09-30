@@ -14,7 +14,11 @@ public class App
 {
 	@RequestMapping("/test")	// 이 메서드가 http요청을 받아들이는 메서드
 	String home(){
+
 		System.out.println("@@@@ 여긴 ㅁ ㅏ스 ㅌ ㅓ 브런치 @@@@@");
+
+		System.out.println("@@@ 여긴 테스트 브런치 @@@");
+
 		return "hellooooo worldd22334455";
 	}
 	
