@@ -14,6 +14,8 @@ public class App
 {
 	@RequestMapping("/test")	// 이 메서드가 http요청을 받아들이는 메서드
 	String home(){
+		
+		System.out.println("@@@ 로컬 작성을 원격지로 푸쉬 @@@");
 
 		System.out.println("@@@@ 여긴 ㅁ ㅏ스 ㅌ ㅓ 브런치 @@@@@");
 
